@@ -1,0 +1,35 @@
+body{
+  background-image: url(../../../img/fua.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+#teste1, #teste2, #teste3, #teste4, #teste5, #teste6, #teste7{  
+  background-color: white;
+  border: 2px solid white;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+}
+#carr1, #carr2, #carr3, #carr4, #carr5, #carr6, #carr7{
+  top: 0px;
+  height: auto;
+}
+#mybt{
+  margin-left: 228px;
+  padding: 3px 150px;
+  margin-top: 10px;
+}
+#mybt0{
+  margin-left: 25px ;
+  margin-bottom: 30px;
+}
+#h{
+  margin-left: 290px;
+  margin-top: 10px;
+}

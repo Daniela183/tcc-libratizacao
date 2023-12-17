@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Cores</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../../../css/bootstrap.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../libras.png">
+
+</head>
+<body>
+<section class="container mt-4">
+<div id="indica" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#indica" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: black;"></button>
+    <button type="button" data-bs-target="#indica" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: black;"></button>
+    <button type="button" data-bs-target="#indica" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: black;"></button>
+    <button type="button" data-bs-target="#indica" data-bs-slide-to="3" aria-label="Slide 4" style="background-color: black;"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div id="teste1">
+      <img id="carr1" src="../../../img/gif/cores.gif" class="d-block w-100" onclick="mudarImg1()">
+    </div>
+  </div>
+    <div class="carousel-item">
+      <div id="teste2">
+      <img id="carr2" src="../../../img/gif/amarelo.gif" class="d-block w-100" onclick="mudarImg2()">
+    </div>
+  </div>
+    <div class="carousel-item"> 
+      <div id="teste3">  
+      <img id="carr3" src="../../../img/gif/azul.gif" class="d-block w-100" onclick="mudarImg3()">
+    </div>
+  </div> 
+    <div class="carousel-item">   
+      <div id="teste4">
+      <img id="carr4" src="../../../img/gif/laranja.gif" class="d-block w-100" onclick="mudarImg4()">
+    </div>
+  </div> 
+  </div>
+  </div> 
+  <div class="carousel-item">  
+    <div id="teste10">  
+    <img id="carr10" src="../../../img/gif/ano.gif" class="d-block w-100" onclick="mudarImg10()">
+  </div>
+  </div>
+      </div>
+    </div>
+    <button class="carousel-dark carousel-control-prev" type="button" data-bs-target="#indica" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-dark carousel-control-next" type="button" data-bs-target="#indica" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+  
+  <script src="../../../js/bootstrap.bundle.js"></script>
+  <script src="./script.js"></script>
+   
+  
+  </body>
+  </html>

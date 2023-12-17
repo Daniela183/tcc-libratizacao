@@ -1,0 +1,27 @@
+body{
+  background-image: url(../../../img/fua.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+.tes{
+  background-color: rgba(85, 236, 241, 0.991);
+  text-align: center;
+}
+#teste1, #teste2, #teste3, #teste4, #teste5, #teste6, #teste7{  
+  background-color: white;
+  border: 2px solid white;
+  height: auto;
+  margin-top: -50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+}
+#gi{
+  background-color: white;
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,205 @@
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  body {
+    background-image: url(../img/fun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+  header {
+    height: 100vh;
+    background-color: rgba(85, 236, 241, 0.991);
+    height: 140px;
+    z-index: 999;
+  }
+  section {
+    margin-top: 140px;
+  }
+  #ico{
+    height: 10px;
+    width: 10px;
+  }
+  #imglibras {
+    position: absolute;
+    border-radius: 0px 20px 0px 20px;
+    top: 15px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+  }
+  .tex{
+    background-color: white;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: -5px;
+    padding: -10px;
+    margin-top: 2%;
+  }
+  .tit{
+    text-align: center;
+    margin-top: 2%;
+  }
+  #vid{
+    margin-top: 15%;
+  }
+  #my {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  #saud {
+    margin-top: 20px;
+    height: 280px;
+    width: 340px;
+  }
+  #fam {
+    margin-top: 20px;
+    height: 280px;
+    width: 340px;
+  }
+  #cal {
+    height: 280px;
+    width: 340px;
+  }
+  #cor {
+    height: 280px;
+    width: 340px;
+  }
+  footer {
+    margin-top: 65px;
+    background: rgba(85, 236, 241, 0.991);
+    height: 140px;
+    width: auto;
+  }
+  .nav-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav-link::before,
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform .25s;
+  }
+  .nav-link::before {
+    top: -3px;
+    transform-origin: left;
+  }
+  .nav-link::after {
+    bottom: -3px;
+    transform-origin: right;
+  }
+  .nav-link:hover::before,
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  .navbar-brand,
+  .conteiner {
+    height: 20px;
+    width: 40px;
+    border-radius: 20px;
+  }
+  li.nav-item{
+    padding-right: 40px;
+  }
+  #ini {
+    height: 80px;
+    width: 120px;
+    display: none;
+    margin-left: 5%;
+  }
+  #imginicio {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 80%;
+    width: 80%;
+  }
+  #linkinicio, #linkbasico, #linkintermedio, #linkavancado{
+    margin-top: 30px;
+    font-size: 16pt;
+    color: black;
+  }
+  #linkinicio:hover{
+    margin-top: 0px ;
+    font-size: 14pt;
+    color: black;
+  }
+  #linkinicio:hover #ini {
+       display: block;
+  }
+  #bas {
+    height: 80px;
+    width: 100px;
+    display: none;
+    margin-left: 5%;
+  }
+  #imgbasic {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 90%;
+    width: 110%;
+  }
+  #linkbasico:hover{
+    margin-top: 0px ;
+    font-size: 14pt;
+    color: black;
+  }
+  #linkbasico:hover #bas {
+    display: block;
+  }
+  #int {
+    height: 80px;
+    width: 100px;
+    display: none;
+    margin-left: 20%;
+  }
+  #imginter {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 90%;
+    width: 120%;
+  }
+  #linkintermedio:hover{
+    margin-top: 0px ;
+    font-size: 14pt;
+    color: black;
+  }
+  #linkintermedio:hover #int {
+    display: block;
+  }
+  #ava {
+    height: 80px;
+    width: 100px;
+    display: none;
+    margin-left: 12%;
+  }
+  #imgavan {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 80px;
+    width: 130px;
+   
+  }
+  #linkavancado:hover{
+    margin-top: 0px ;
+    font-size: 14pt;
+    color: black;
+  }
+  #linkavancado:hover #ava {
+    display: block;
+  }
